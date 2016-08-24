@@ -1,0 +1,15 @@
+==19402== 
+==19402== HEAP SUMMARY:
+==19402==     in use at exit: 16 bytes in 1 blocks
+==19402==   total heap usage: 10 allocs, 9 frees, 120 bytes allocated
+==19402== 
+==19402== LEAK SUMMARY:
+==19402==    definitely lost: 16 bytes in 1 blocks
+==19402==    indirectly lost: 0 bytes in 0 blocks
+==19402==      possibly lost: 0 bytes in 0 blocks
+==19402==    still reachable: 0 bytes in 0 blocks
+==19402==         suppressed: 0 bytes in 0 blocks
+==19402== Rerun with --leak-check=full to see details of leaked memory
+==19402== 
+==19402== For counts of detected and suppressed errors, rerun with: -v
+==19402== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
