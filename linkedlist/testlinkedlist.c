@@ -53,5 +53,6 @@ int main (int argc, char *argv[])
     remove_node(lst, lst->init);
     show_list(lst);
     destroy_all(lst);
+    free(no); // call destroy gives an error because 3 is on stack
     return 0;
 }
